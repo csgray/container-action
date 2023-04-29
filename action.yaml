@@ -1,0 +1,5 @@
+name: "Container Action Lab"
+description: "Outputs memory information for a demonstration."
+runs:
+  using: "docker"
+  image: "Dockerfile"

@@ -1,0 +1,8 @@
+on: [ push ]
+jobs:
+  memory:
+    runs-on: ubuntu-latest
+    name: Output Memory
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./
